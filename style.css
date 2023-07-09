@@ -1,0 +1,96 @@
+.header{
+  width: 100%;
+  margin: auto;
+  flex-direction:row;
+}
+
+.top-title{
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+.title{
+  font-size: 30px;
+  border-bottom:solid;
+}
+
+.header ul{
+  text-align: right;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: right;
+}
+
+.header a{
+  color: blue;
+  text-decoration:none;
+}
+
+a:hover{
+  color: red;
+}
+
+.pic{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-image:url("https://cdn.glitch.global/3f1bf8c0-f718-4725-b5f9-75b4354fd234/2017-02-03-14-20-21-029.jpg?v=1688876479055");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.pic::before{
+  content: "";
+  position: absolute;
+  top: 0;  bottom: 0;
+  left: 0;  right: 0;
+  background-color: white;
+  opacity:0.4;
+}
+
+.pic p{
+  font-size: 45px;
+  position: absolute;
+  left:50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.wrapper {
+  padding: 20px 350px;
+}
+
+.wrapper p{
+  padding: 0px 50px;
+}
+
+.wapper ul{
+  padding: 0 50px;
+}
+
+.future li{
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.reference ul{
+  list-style: none;
+  display: flex;
+}
+
+.reference li{
+  list-style: none;
+}
+
+.reference img{
+  width: 350px;
+  margin: 10px 20px;
+}
